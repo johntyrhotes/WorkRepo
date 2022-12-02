@@ -23,7 +23,7 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
  */
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src\\test\\resources\\Features", glue = "com.stepdefinition", stepNotifications = true,
-plugin= {"pretty","json:C:\\Users\\johnt\\workspace-eclipse\\OMRBranchAdactinAutomation\\target\\output.json"},
+plugin= {"pretty","json:C:\\Users\\johnt\\eclipse-workspace\\OMRBranchAdactinAutomation\\target\\output.json"},
 monochrome=true,dryRun=false,publish=true,snippets=SnippetType.CAMELCASE,tags="@Login1")
 public class TestRunnerClass extends BaseClass {
 	

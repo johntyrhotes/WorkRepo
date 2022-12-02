@@ -8,6 +8,7 @@ public class Program1 {
 	public void method1() {
 		
 		System.out.println("Johnty Rhotes Johnson");
+		System.out.println("Mercy Immaculate");
 
 
 	}
